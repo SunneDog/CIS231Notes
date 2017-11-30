@@ -25,5 +25,10 @@ public class Notes {
             System.out.println(w);
         }
 
+        Hauler h = new Hauler();
+        Car c1 = new Car();
+        Car c2 = new Car();
+        System.out.println(h + "\n" + c1 + "\n" + c2);
+
     }
 }
